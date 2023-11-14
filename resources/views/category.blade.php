@@ -21,7 +21,7 @@
 
  @foreach ($categories as $category )
  <tr>
-    <td>{{ $categories->SuplierID; }}</td>
+    <td>{{ $categories->SupplierID; }}</td>
     <td>{{ $categories->Supplier_Name; }}</td>
 </tr> 
     @endforeach
